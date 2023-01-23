@@ -21,6 +21,7 @@ app.get('/', async (req, res) => {
   });
 });
 
+console.log('mongodb_url', process.env.MONGODB_URL)
 const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
