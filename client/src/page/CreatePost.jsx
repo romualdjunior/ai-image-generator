@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://image-generator-server-33f5t.ondigitalocean.app/api/v1/dalle",
+          "https://ai-image-generator-server-zkimh.ondigitalocean.app/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -61,7 +61,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://image-generator-server-33f5t.ondigitalocean.app/api/v1/post",
+          "https://ai-image-generator-server-zkimh.ondigitalocean.app/api/v1/post",
           {
             method: "POST",
             headers: {

@@ -25,7 +25,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        "https://image-generator-server-33f5t.ondigitalocean.app/api/v1/post",
+        "https://ai-image-generator-server-zkimh.ondigitalocean.app/api/v1/post",
         {
           method: "GET",
           headers: {
